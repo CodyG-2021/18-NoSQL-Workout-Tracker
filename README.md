@@ -4,8 +4,8 @@
 
 A simple fitness app that allows you to track resistance or cardio and keep track of it on a stats page that will show the combined activities for the day. 
 
-The data is saved by utilizing mongoose as a database. 
-   
+The data is saved by utilizing mongoose as a database. Name of the workout, the type of workout, how many sets, reps, and time it took to complete the workout is tracked. Depending on the type distance is also another way to track a bike ride for example. 
+
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -33,7 +33,8 @@ To start the process, go to the deployed site [here](https://serene-basin-23801.
 
 Then try adding in a new workout and then when the work out is finished click complete and go view it on the stats page by clicking "Dashboard".
 
-![An example workout:](assets/images/tech_blog.png)
+![An example workout:](assets/images/workout1.png)
+![An example stat page:](assets/images/workout2.png)
 
 ## License
 
