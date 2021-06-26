@@ -20,7 +20,6 @@ router.get('/api/workouts', (req, res) => {
 
 router.put('/api/workouts/:id', async (req, res) => {
 	try {
-		// console.log(req.body)
 		const workout = await Workout.findById(req.params.id)
 		workout.exercises.push(req.body)
 		await workout.save()
@@ -53,7 +52,7 @@ router.get("/api/workouts/range", (req, res) => {
 		res.json(dbWorkout);
 	}).catch(err => {
 		console.log(err),
-			res.json(err);
+		res.json(err);
 	});
 });
 
